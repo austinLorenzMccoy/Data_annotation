@@ -1,0 +1,36 @@
+model: "medical_chart_tagger"
+version: "1.0"
+parameters:
+  learning_rate: 0.001
+  batch_size: 32
+  epochs: 10
+paths:
+  training_data: "data/train.json"
+  validation_data: "data/val.json"
+  model_output: "models/model.h5"
+logging:
+  level: "INFO"
+  file: "logs/app.log"
+project:
+  name: "Medical Chart Error Tagger"
+  version: "1.0.0"
+
+annotation:
+  labels:
+    - name: "Medication Error"
+      color: "#FF0000"
+    - name: "Diagnostic Error"
+      color: "#00FF00"
+    - name: "Documentation Error"
+      color: "#0000FF"
+    - name: "Procedural Error"
+      color: "#FFA500"
+
+doccano:
+  host: "http://localhost"
+  port: 8001
+
+recording:
+  output_dir: "recordings/"
+  format: "mp4"
+  capture_frequency: "daily"

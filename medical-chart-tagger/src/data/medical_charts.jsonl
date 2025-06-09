@@ -1,0 +1,3 @@
+{"text": "Patient prescribed Metformin 1000mg instead of 100mg. Blood sugar levels elevated.", "labels": [[19, 35, "MED"]]}
+{"text": "Missing vital signs from morning rounds. Patient status unclear.", "labels": [[0, 32, "DOC"]]}
+{"text": "Delayed CT scan order resulting in late diagnosis of appendicitis.", "labels": [[0, 18, "PROC"], [33, 47, "DX"]]}

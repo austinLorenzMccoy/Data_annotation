@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<labels>
+    <label>
+        <id>MED</id>
+        <name>Medication Error</name>
+        <color>#FF0000</color>
+        <shortcut>m</shortcut>
+        <attributes>
+            <attribute>
+                <name>severity</name>
+                <values>
+                    <value>high</value>
+                    <value>medium</value>
+                    <value>low</value>
+                </values>
+            </attribute>
+            <attribute>
+                <name>error_type</name>
+                <values>
+                    <value>wrong_dosage</value>
+                    <value>incorrect_medication</value>
+                    <value>missing_prescription</value>
+                </values>
+            </attribute>
+        </attributes>
+    </label>
+    
+    <label>
+        <id>DX</id>
+        <name>Diagnostic Error</name>
+        <color>#00FF00</color>
+        <shortcut>d</shortcut>
+        <attributes>
+            <attribute>
+                <name>severity</name>
+                <values>
+                    <value>high</value>
+                    <value>medium</value>
+                    <value>low</value>
+                </values>
+            </attribute>
+            <attribute>
+                <name>error_type</name>
+                <values>
+                    <value>missed_diagnosis</value>
+                    <value>delayed_diagnosis</value>
+                    <value>wrong_diagnosis</value>
+                </values>
+            </attribute>
+        </attributes>
+    </label>
+    
+    <label>
+        <id>DOC</id>
+        <name>Documentation Error</name>
+        <color>#0000FF</color>
+        <shortcut>o</shortcut>
+        <attributes>
+            <attribute>
+                <name>severity</name>
+                <values>
+                    <value>high</value>
+                    <value>medium</value>
+                    <value>low</value>
+                </values>
+            </attribute>
+            <attribute>
+                <name>error_type</name>
+                <values>
+                    <value>missing_information</value>
+                    <value>incorrect_dates</value>
+                    <value>incomplete_records</value>
+                </values>
+            </attribute>
+        </attributes>
+    </label>
+    
+    <label>
+        <id>PROC</id>
+        <name>Procedural Error</name>
+        <color>#FFA500</color>
+        <shortcut>p</shortcut>
+        <attributes>
+            <attribute>
+                <name>severity</name>
+                <values>
+                    <value>high</value>
+                    <value>medium</value>
+                    <value>low</value>
+                </values>
+            </attribute>
+            <attribute>
+                <name>error_type</name>
+                <values>
+                    <value>wrong_procedure</value>
+                    <value>incorrect_timing</value>
+                    <value>missing_documentation</value>
+                </values>
+            </attribute>
+        </attributes>
+    </label>
+</labels>

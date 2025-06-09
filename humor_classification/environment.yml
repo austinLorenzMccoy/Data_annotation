@@ -1,0 +1,14 @@
+name: humor_annotation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.21.6
+  - pandas<2.0.0
+  - matplotlib
+  - seaborn
+  - pip:
+    - label-studio==1.8.0
+    - label-studio-sdk

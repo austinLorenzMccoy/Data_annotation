@@ -1,0 +1,29 @@
+{
+  "labels": [
+    {
+      "text": "Disease",
+      "suffix_key": "d",
+      "background_color": "#ff4444"
+    },
+    {
+      "text": "Drug",
+      "suffix_key": "m",
+      "background_color": "#4444ff"
+    },
+    {
+      "text": "Symptom",
+      "suffix_key": "s",
+      "background_color": "#ffa500"
+    },
+    {
+      "text": "Procedure",
+      "suffix_key": "p",
+      "background_color": "#44cc44"
+    },
+    {
+      "text": "Anatomy",
+      "suffix_key": "a",
+      "background_color": "#8b4513"
+    }
+  ]
+}

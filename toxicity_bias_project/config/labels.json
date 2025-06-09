@@ -1,0 +1,44 @@
+[
+    {
+        "text": "Toxic",
+        "suffix_key": "t",
+        "background_color": "#FF4444",
+        "text_color": "#FFFFFF"
+    },
+    {
+        "text": "Non-toxic",
+        "suffix_key": "n", 
+        "background_color": "#44FF44",
+        "text_color": "#000000"
+    },
+    {
+        "text": "Gender Bias",
+        "suffix_key": "g",
+        "background_color": "#FFA500",
+        "text_color": "#000000"
+    },
+    {
+        "text": "Racial Bias",
+        "suffix_key": "r",
+        "background_color": "#9370DB",
+        "text_color": "#FFFFFF"
+    },
+    {
+        "text": "Religious Bias",
+        "suffix_key": "l",
+        "background_color": "#4169E1",
+        "text_color": "#FFFFFF"
+    },
+    {
+        "text": "Political Bias",
+        "suffix_key": "p",
+        "background_color": "#FFD700",
+        "text_color": "#000000"
+    },
+    {
+        "text": "None",
+        "suffix_key": "x",
+        "background_color": "#808080",
+        "text_color": "#FFFFFF"
+    }
+]

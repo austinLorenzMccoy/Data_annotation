@@ -1,0 +1,9 @@
+<View>
+  <Text name="text" value="$text"/>
+  <Choices name="humor_type" toName="text" choice="single" showInLine="true">
+    <Choice value="Funny" html="😄"/>
+    <Choice value="Not_Funny" html="😐"/>
+    <Choice value="Dark_Humor" html="😈"/>
+    <Choice value="Offensive" html="⚠️"/>
+  </Choices>
+</View>

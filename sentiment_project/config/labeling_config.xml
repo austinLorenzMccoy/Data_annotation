@@ -1,0 +1,16 @@
+<View>
+  <Text name="text" value="$text"/>
+  <Choices name="sentiment" toName="text" choice="single" required="true">
+    <Choice value="Positive"/>
+    <Choice value="Neutral"/>
+    <Choice value="Negative"/>
+  </Choices>
+  <Choices name="tone" toName="text" choice="single">
+    <Choice value="Joyful"/>
+    <Choice value="Angry"/>
+    <Choice value="Sad"/>
+    <Choice value="Sarcastic"/>
+    <Choice value="Excited"/>
+    <Choice value="None"/>
+  </Choices>
+</View>
