@@ -1,0 +1,25 @@
+<View>
+  <Header value="Classify the offensive content and language type:"/>
+  <Text name="text" value="$text"/>
+  
+  <Choices name="offensive_level" toName="text" choice="single" showInLine="true">
+    <Choice value="not_offensive" hotkey="1"/>
+    <Choice value="mildly_offensive" hotkey="2"/>
+    <Choice value="offensive" hotkey="3"/>
+  </Choices>
+  
+  <Choices name="bias_type" toName="text" choice="multiple" showInLine="true">
+    <Choice value="gender" hotkey="g"/>
+    <Choice value="racial" hotkey="r"/>
+    <Choice value="religious" hotkey="l"/>
+    <Choice value="political" hotkey="p"/>
+  </Choices>
+  
+  <Choices name="language" toName="text" choice="single">
+    <Choice value="hausa_english"/>
+    <Choice value="yoruba_english"/>
+    <Choice value="igbo_english"/>
+    <Choice value="pidgin"/>
+    <Choice value="hinglish"/>
+  </Choices>
+</View>

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "text": "This is a sample Hinglish text. Bahut smart ho app!",
+        "language": "hinglish",
+        "translation": "This is a sample Hinglish text. You are very smart!"
+    },
+    {
+        "id": 2,
+        "text": "Na so dem dey do for here!",
+        "language": "pidgin",
+        "translation": "That's how they behave here!"
+    },
+    {
+        "id": 3,
+        "text": "Mo fe ra car yi",
+        "language": "yoruba_english",
+        "translation": "I want to buy this car"
+    },
+    {
+        "id": 4,
+        "text": "Nwanne, i need your help with this homework",
+        "language": "igbo_english",
+        "translation": "Brother/Sister, i need your help with this homework"
+    },
+    {
+        "id": 5,
+        "text": "Kedu why you no show for party yesterday?",
+        "language": "igbo_english",
+        "translation": "Why didn't you come to the party yesterday?"
+    },
+    {
+        "id": 6,
+        "text": "Biko, help me with this small thing",
+        "language": "igbo_english",
+        "translation": "Please, help me with this small thing"
+    },
+    {
+        "id": 7,
+        "text": "This yeye girl no sabi anything for class",
+        "language": "pidgin",
+        "translation": "This silly girl doesn't know anything in class"
+    },
+    {
+        "id": 8,
+        "text": "Chai! The exam was too hard, o di egwu!",
+        "language": "igbo_english",
+        "translation": "Oh my! The exam was too hard, it's terrible!"
+    },
+    {
+        "id": 9,
+        "text": "Eyin boys yi sha, won lazy gan",
+        "language": "yoruba_english",
+        "translation": "These boys are very lazy"
+    },
+    {
+        "id": 10,
+        "text": "Nna, your performance dey very poor",
+        "language": "igbo_english",
+        "translation": "Man, your performance is very poor"
+    },
+    {
+        "id": 11,
+        "text": "I tell you, that girl na real ada! Smart pass everybody",
+        "language": "igbo_english",
+        "translation": "I tell you, that girl is a real firstborn daughter! Smarter than everyone"
+    },
+    {
+        "id": 12,
+        "text": "Abeg, no dey vex. I go send you the money tomorrow.",
+        "language": "pidgin",
+        "translation": "Please don't be angry. I will send you the money tomorrow."
+    }
+]
