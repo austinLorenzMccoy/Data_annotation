@@ -1,6 +1,52 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
-exports/*
-!exports/.gitkeep
+Thumbs.db
+
+# Data
+*.csv
+*.json
+*.txt
+!sample_data.json
+!requirements.txt
+
+# Exports
+exports/
+*.sqlite3
+
+# Label Studio
+.label_studio/
+label_studio.log

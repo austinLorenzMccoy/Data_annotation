@@ -42,10 +42,11 @@ Multi-dimensional sentiment classification:
 
 ### 6. [Multilingual Offensive Language](Multilingual_Offensive_Language)
 Cross-lingual offensive content detection:
-- Languages: Yoruba-English, Hausa-English, Igbo-English, Pidgin
-- Offensive level classification
-- Cultural context awareness
-- Multi-annotator support
+- Languages: Yoruba-English, Hausa-English, Igbo-English, Pidgin, Hinglish
+- Offensive level classification (not offensive, mildly offensive, offensive, very offensive)
+- Bias type categorization (gender, racial, religious, political, socioeconomic)
+- Target identification (individual, group, other, none)
+- Streamlit-based annotation interface with real-time statistics
 
 ## Project Structure 📁
 
@@ -69,8 +70,12 @@ Cross-lingual offensive content detection:
 ├── sentiment_project/
 │   └── labeled_output/
 ├── Multilingual_Offensive_Language/
-│   ├── scripts/
-│   └── exports/
+│   ├── app.py            # Streamlit annotation interface
+│   ├── prepare_data.py   # Data preparation utilities
+│   ├── run_app.sh        # Script to launch the annotation tool
+│   ├── configs/          # Annotation configuration
+│   ├── data/             # Raw and processed data
+│   └── exports/          # Annotation exports
 └── requirements.txt
 ```
 
@@ -92,9 +97,14 @@ pip install -r requirements.txt
 docker-compose up -d
 ```
 
-3. **Label Studio** (for relevant projects)
+3. **Annotation Tools**
 ```bash
+# For Label Studio projects
 label-studio start
+
+# For Streamlit projects (e.g., Multilingual Offensive Language)
+cd Multilingual_Offensive_Language
+./run_app.sh
 ```
 ## Key Features ⭐
 
@@ -127,11 +137,12 @@ Each project contains detailed guidelines:
 
 ## Tools & Technologies 🔧
 
-- **Label Studio**: Web-based annotation interface
+- **Label Studio**: Web-based annotation interface for several projects
+- **Streamlit**: Interactive annotation interface for Multilingual Offensive Language
 - **Doccano**: Specialized NER annotation
 - **Python**: Data processing and validation
 - **Docker**: Container management
-- **Conda**: Environment management
+- **Conda/Pip**: Environment management
 
 ## Quality Control ✔️
 
@@ -167,3 +178,5 @@ For questions or support, please open an issue in the repository.
 - v1.0.0: Initial release with core projects
 - v1.1.0: Added Multilingual support
 - v1.2.0: Enhanced guidelines and validation
+- v1.3.0: Migrated Multilingual Offensive Language to Streamlit (June 2025)
+- v1.3.1: Improved annotation statistics and UI enhancements

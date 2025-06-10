@@ -1,0 +1,53 @@
+<View>
+  <Header value="Multilingual Offensive Language Annotation"/>
+  
+  <View style="display: flex; margin-bottom: 1em">
+    <View style="flex: 50%">
+      <Text name="text" value="$text" style="padding-right: 1em"/>
+    </View>
+    <View style="flex: 50%; background: #f8f8f8; padding: 1em; border-radius: 5px">
+      <Header value="Translation" size="5" />
+      <Text name="translation" value="$meta.translation" />
+    </View>
+  </View>
+  
+  <Header value="1. Offensive Content Classification" size="5" />
+  <Choices name="offensive_level" toName="text" choice="single" showInLine="true">
+    <Choice value="not_offensive" hotkey="1" background="#009933"/>
+    <Choice value="mildly_offensive" hotkey="2" background="#ffcc00"/>
+    <Choice value="offensive" hotkey="3" background="#ff3300"/>
+    <Choice value="very_offensive" hotkey="4" background="#990000"/>
+  </Choices>
+  
+  <Header value="2. Bias Type (if applicable)" size="5" />
+  <Choices name="bias_type" toName="text" choice="multiple" showInLine="true">
+    <Choice value="gender" hotkey="g"/>
+    <Choice value="racial" hotkey="r"/>
+    <Choice value="religious" hotkey="l"/>
+    <Choice value="political" hotkey="p"/>
+    <Choice value="socioeconomic" hotkey="s"/>
+    <Choice value="other" hotkey="o"/>
+  </Choices>
+  
+  <Header value="3. Target of Offensive Content" size="5" />
+  <Choices name="target" toName="text" choice="multiple" showInLine="true">
+    <Choice value="individual" hotkey="i"/>
+    <Choice value="group" hotkey="g"/>
+    <Choice value="other" hotkey="o"/>
+    <Choice value="none" hotkey="n"/>
+  </Choices>
+  
+  <Header value="4. Language Identification" size="5" />
+  <Choices name="language" toName="text" choice="single">
+    <Choice value="hausa_english"/>
+    <Choice value="yoruba_english"/>
+    <Choice value="igbo_english"/>
+    <Choice value="pidgin"/>
+    <Choice value="hinglish"/>
+  </Choices>
+  
+  <Header value="5. Notes" size="5" />
+  <TextArea name="notes" toName="text" 
+            placeholder="Add any additional notes about this text..." 
+            rows="2" editable="true" maxSubmissions="1"/>
+</View>
