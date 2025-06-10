@@ -114,7 +114,12 @@ def main():
     
     with col2:
         st.subheader("Translation")
-        st.success(current_item['translation'])
+        # Only show translation if it's different from the original text
+        if current_item['language'] != 'english' and current_item['text'] != current_item['translation']:
+            st.success(current_item['translation'])
+        else:
+            st.success("[Standard English - No translation needed]")
+            st.caption("This is standard English text that doesn't require translation.")
     
     # Annotation form
     with st.form(key=f"annotation_form_{item_id}"):

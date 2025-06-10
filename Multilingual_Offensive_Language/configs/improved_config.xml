@@ -39,11 +39,11 @@
   
   <Header value="4. Language Identification" size="5" />
   <Choices name="language" toName="text" choice="single">
+    <Choice value="english"/>
     <Choice value="hausa_english"/>
     <Choice value="yoruba_english"/>
     <Choice value="igbo_english"/>
     <Choice value="pidgin"/>
-    <Choice value="hinglish"/>
   </Choices>
   
   <Header value="5. Notes" size="5" />

@@ -72,7 +72,7 @@ When annotating texts:
    - `yoruba_english`: Yoruba-English code-mixed text
    - `igbo_english`: Igbo-English code-mixed text
    - `pidgin`: Nigerian Pidgin
-   - `hinglish`: Hindi-English code-mixed text
+   - `english`: English
 
 ## Importing Data
 

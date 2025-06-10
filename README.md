@@ -42,7 +42,7 @@ Multi-dimensional sentiment classification:
 
 ### 6. [Multilingual Offensive Language](Multilingual_Offensive_Language)
 Cross-lingual offensive content detection:
-- Languages: Yoruba-English, Hausa-English, Igbo-English, Pidgin, Hinglish
+- Languages: Standard English, Yoruba-English, Hausa-English, Igbo-English, Pidgin
 - Offensive level classification (not offensive, mildly offensive, offensive, very offensive)
 - Bias type categorization (gender, racial, religious, political, socioeconomic)
 - Target identification (individual, group, other, none)

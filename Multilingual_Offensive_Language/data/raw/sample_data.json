@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "text": "This is a sample Hinglish text. Bahut smart ho app!",
-        "language": "hinglish",
-        "translation": "This is a sample Hinglish text. You are very smart!"
+        "text": "This person is completely useless at their job.",
+        "language": "english",
+        "translation": "This person is completely useless at their job."
     },
     {
         "id": 2,
