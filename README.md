@@ -1,4 +1,29 @@
- # Data Annotation Projects Collection 🏷️
+ ---
+
+## 📌 Project Quick Links & Summaries
+
+- [Multilingual Offensive Language Annotation Project](./Multilingual_Offensive_Language/README.md):
+  - [🌐 Streamlit Demo App](https://multilingual-offensive-language.streamlit.app/) — Try the multilingual offensive language annotation demo online.
+  - Label Studio setup for annotating offensive language in English and code-mixed languages, with bias and target identification, and real-time stats.
+
+- [Humor Classification](./humor_classification/README.md):
+  - Classifies humor content in text. Includes scripts for data prep, model training, and evaluation. Conda environment setup provided.
+
+- [Medical Chart Tagger](./medical-chart-tagger/README.md):
+  - Span-level annotation of medical charts using NER. Supports clinical entity/relation tagging and HL7/FHIR-compatible exports.
+
+- [Medical NER](./medical_NER/README.md):
+  - Named Entity Recognition for medical texts using Doccano. Includes data conversion, UMLS mapping, and annotation guidelines.
+
+- [Toxicity & Bias Detection](./toxicity_bias_project/README.md):
+  - Multi-label classification of toxic and biased content using Doccano. Docker-based setup and detailed annotation process.
+
+- [Sentiment Analysis](./sentiment_project/README.md):
+  - Sentiment and emotional tone classification for social media texts. Label Studio-based workflow and cross-annotator metrics.
+
+---
+
+# Data Annotation Projects Collection 🏷️
 
 A comprehensive suite of data annotation projects for medical, toxicity, and multilingual content annotation using Label Studio and custom tagging interfaces.
 
