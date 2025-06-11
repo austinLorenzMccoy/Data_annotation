@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Chart Tagger Project</title>
+    <link rel="stylesheet" href="docs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="markdown-content">
+        <h1>Medical Chart Tagger Annotation Project</h1>
+
+        <p>This project provides specialized tools for clinical document annotation with entity and relation tagging using Label Studio.</p>
+        
+        <p><strong>GitHub Repository:</strong> <a href="https://github.com/austinLorenzMccoy/Data_annotation/tree/main/medical-chart-tagger" target="_blank">https://github.com/austinLorenzMccoy/Data_annotation/tree/main/medical-chart-tagger</a></p>
+
+        <h2>Features</h2>
+
+        <ul>
+            <li>Clinical entity and relation tagging</li>
+            <li>HL7/FHIR export capabilities</li>
+            <li>Support for annotating medical charts, clinical notes, and discharge summaries</li>
+            <li>Integration with medical terminology standards</li>
+            <li>Quality control mechanisms for medical annotation</li>
+        </ul>
+
+        <h2>Technologies Used</h2>
+
+        <ul>
+            <li><strong>Label Studio</strong>: Primary annotation platform</li>
+            <li><strong>Python</strong>: Backend processing and data handling</li>
+            <li><strong>UMLS</strong>: Medical terminology integration</li>
+            <li><strong>HL7/FHIR</strong>: Healthcare data standards for export</li>
+        </ul>
+
+        <h2>Annotation Schema</h2>
+
+        <p>The medical chart annotation schema includes:</p>
+
+        <ol>
+            <li><strong>Clinical Entities</strong>:
+                <ul>
+                    <li>Diagnoses</li>
+                    <li>Medications</li>
+                    <li>Procedures</li>
+                    <li>Lab Results</li>
+                    <li>Vital Signs</li>
+                    <li>Allergies</li>
+                    <li>Medical History</li>
+                </ul>
+            </li>
+            <li><strong>Relations</strong>:
+                <ul>
+                    <li>Medication-Condition</li>
+                    <li>Procedure-Diagnosis</li>
+                    <li>Lab-Diagnosis</li>
+                    <li>Temporal Relations</li>
+                    <li>Causal Relations</li>
+                </ul>
+            </li>
+            <li><strong>Attributes</strong>:
+                <ul>
+                    <li>Certainty (Confirmed, Suspected, Ruled Out)</li>
+                    <li>Temporality (Current, Historical, Future)</li>
+                    <li>Experiencer (Patient, Family Member)</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>Workflow</h2>
+
+        <ol>
+            <li>Medical document pre-processing</li>
+            <li>First-pass entity annotation</li>
+            <li>Second-pass relation annotation</li>
+            <li>Quality review by medical professionals</li>
+            <li>Export to HL7/FHIR formats</li>
+            <li>Integration with medical knowledge bases</li>
+        </ol>
+
+        <h2>Integration</h2>
+
+        <p>The annotation system integrates with:</p>
+        <ul>
+            <li>UMLS for medical terminology standardization</li>
+            <li>HL7/FHIR for healthcare data exchange</li>
+            <li>Medical NLP systems for pre-annotation</li>
+        </ul>
+
+        <a href="../index.html" class="back-link">Back to Portfolio</a>
+    </div>
+</body>
+</html>

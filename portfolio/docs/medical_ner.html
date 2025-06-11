@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical NER Project</title>
+    <link rel="stylesheet" href="docs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="markdown-content">
+        <h1>Medical Named Entity Recognition (NER) Annotation Project</h1>
+
+        <p>This project provides a Doccano-based system for medical named entity recognition with UMLS mapping and annotation guidelines.</p>
+        
+        <p><strong>GitHub Repository:</strong> <a href="https://github.com/austinLorenzMccoy/Data_annotation/tree/main/medical_NER" target="_blank">https://github.com/austinLorenzMccoy/Data_annotation/tree/main/medical_NER</a></p>
+
+        <h2>Features</h2>
+
+        <ul>
+            <li>Named Entity Recognition for medical text using Doccano</li>
+            <li>UMLS terminology mapping for standardized annotations</li>
+            <li>Comprehensive annotation guidelines for medical entities</li>
+            <li>Quality control and inter-annotator agreement metrics</li>
+            <li>Support for clinical notes, research papers, and medical literature</li>
+        </ul>
+
+        <h2>Technologies Used</h2>
+
+        <ul>
+            <li><strong>Doccano</strong>: Primary annotation platform</li>
+            <li><strong>Python</strong>: Backend processing and integration</li>
+            <li><strong>UMLS</strong>: Medical terminology standardization</li>
+            <li><strong>spaCy</strong>: Pre-annotation and NLP processing</li>
+            <li><strong>Pandas</strong>: Data manipulation and analysis</li>
+        </ul>
+
+        <h2>Annotation Schema</h2>
+
+        <p>The medical NER annotation schema includes:</p>
+
+        <ol>
+            <li><strong>Entity Types</strong>:
+                <ul>
+                    <li>Diseases & Disorders</li>
+                    <li>Medications & Drugs</li>
+                    <li>Anatomical Structures</li>
+                    <li>Symptoms & Signs</li>
+                    <li>Procedures & Treatments</li>
+                    <li>Medical Devices</li>
+                    <li>Lab Tests & Results</li>
+                </ul>
+            </li>
+            <li><strong>Entity Attributes</strong>:
+                <ul>
+                    <li>UMLS CUI (Concept Unique Identifier)</li>
+                    <li>Semantic Type</li>
+                    <li>Negation Status</li>
+                    <li>Certainty Level</li>
+                    <li>Temporality</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>Workflow</h2>
+
+        <ol>
+            <li>Document pre-processing and segmentation</li>
+            <li>Automatic pre-annotation using medical NLP models</li>
+            <li>Manual annotation correction and completion in Doccano</li>
+            <li>UMLS concept mapping and standardization</li>
+            <li>Quality control and inter-annotator agreement calculation</li>
+            <li>Export to standard formats (CoNLL, BRAT, JSON)</li>
+        </ol>
+
+        <h2>Annotation Guidelines</h2>
+
+        <p>Detailed guidelines are provided for annotators covering:</p>
+        <ul>
+            <li>Entity boundary determination</li>
+            <li>Handling of nested entities</li>
+            <li>Disambiguation of similar medical concepts</li>
+            <li>Annotation of abbreviations and acronyms</li>
+            <li>Special cases in medical terminology</li>
+        </ul>
+
+        <a href="../index.html" class="back-link">Back to Portfolio</a>
+    </div>
+</body>
+</html>
