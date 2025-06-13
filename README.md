@@ -1,5 +1,7 @@
  ---
 
+# 🌐 [Live Demo](https://data-annotation-zeta.vercel.app)
+
 ## 📌 Project Quick Links & Summaries
 
 - [Multilingual Offensive Language Annotation Project](./Multilingual_Offensive_Language/README.md):
@@ -204,4 +206,4 @@ For questions or support, please open an issue in the repository.
 - v1.1.0: Added Multilingual support
 - v1.2.0: Enhanced guidelines and validation
 - v1.3.0: Migrated Multilingual Offensive Language to Streamlit (June 2025)
-- v1.3.1: Improved annotation statistics and UI enhancements
+- v1.3.1: Improved annotation statistics and UI enhancements        
